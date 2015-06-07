@@ -28,7 +28,7 @@ images = new BackgroundImage();
 images.preload();
 
 $(window).resize(function(){
-    $(this.currentBackgroundImg).css('height', window.innerHeight);
+    $(this.header).css('height', window.innerHeight);
 });
 
 $(document).ready(function() {
