@@ -4,7 +4,7 @@
 		text-align: center;
 	}
 	#title {
-		font-size:200%;
+		font-size:120%;
 	}
 	#quote {
 		font-size: 50%;
@@ -15,7 +15,7 @@
 		background-image: none;
 	}
 	.divisions{
-	color: white;
+	color: green;
 	background:rgba(0, 0, 0, 0.6);
 	width: 100%;
 	margin-left: auto;
