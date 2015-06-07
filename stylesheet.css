@@ -18,6 +18,9 @@
 	font-size: 50%;
 	padding-bottom: 20%;
 }
+#navigation {
+	width: 100%;
+}
 
 }
 
@@ -40,6 +43,9 @@
 #quote {
 	font-size: 50%;
 	padding-bottom: 20%;
+}
+#navigation {
+	width: 100%;
 }
  
 }
