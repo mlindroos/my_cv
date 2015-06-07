@@ -1,16 +1,21 @@
 * {
 	background: #ffffff;
-	width: 100%;
-	height: 100%;
 	font-family: monospace;
+	margin: 0%;
+	padding: 0.01%;
+}
+
+h1{
 }
 
 header {
-	background:url("https://cloud.githubusercontent.com/assets/10785456/8024126/323d26cc-0d31-11e5-9f12-d95937216843.jpg") no-repeat left top;
+	background:url("background.jpg") no-repeat left top;
+	background-size: 100% 100%;
 	opacity: 0.9;
-	background-size: 100% 200%;
-	height: 120%;
+	width: 100%;
+	height: 100%;
 }
+
 
 #title{
 	font: Lucida;
@@ -19,12 +24,11 @@ header {
 	text-shadow: 1px 1px 1px black;
 	background: rgba(0, 0, 0, 0);
 	text-align: center;
-	margin-top: 2%;
+	padding-top: 20%;
 	
 }
 
-#quote {
-	
+#quote {	
 	color:white;
 	background: rgba(0, 0, 0, 0);
 	font: Lucida;
@@ -32,36 +36,57 @@ header {
 	font-style: italic;
 	font-size: 105%;
 	text-align: center;
-	margin-top: -5%;
 	
 }
 
 #navigation {
-
 	color:white;
 	background: rgba(0, 0, 0, 0);
 	font: Lucida;
 	font-style: bold;
 	font-size: 150%;
-	text-align: center;
 	list-style-type: none;
-	padding:0%;
-	margin-left:auto;
-	margin-right: auto;
+	padding-top: 8%;
+	padding-bottom: 2%;
+	text-align: center;
 	
 }
 
 li {
-	float: left;
 	color:white;
 	background: rgba(0, 0, 0, 0);
-	margin-left:auto;
-	margin-right: auto;
+	display: inline;
 }
-a{
+
+li a{
 	display: inline-block;
-	width: 120%;
 	color: white;
 	background: rgba(0, 0, 0, 0);
 	text-shadow: 1px 1px 1px black;
+
+}
+
+h2 {
+	color: black;
+	text-align: center;
+	font-size: 200%;
+	font-style: bold;
+}
+
+.divisions{
+	background-color: rgba(0, 0, 0, 0);
+	color: black;
+	text-align: center;
+	font-size: 150%;
+}
+
+.titles {
+	color: black;
+	text-align: center;);
+	opacity: 0.4;
+	text-align: center;
+}
+
+#Education {
+	background-image: url("keyboards.jpg") no-repeat left top;
 }
