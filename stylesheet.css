@@ -14,6 +14,15 @@
 		opacity: .7;
 		background-image: none;
 	}
+	.divisions{
+	color: white;
+	background:rgba(0, 0, 0, 0.6);
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
 }
 
 * {
