@@ -23,6 +23,8 @@
 }
 .divisions {
 	width: 100%;
+	background:rgba(0, 0, 0, 0.6);
+	font-size: 30%;
 }
 }
 
@@ -48,6 +50,11 @@
 }
 #navigation {
 	width: 100%;
+}
+.divisions {
+	width: 100%;
+	background:rgba(0, 0, 0, 0.6);
+	font-size: 30%;
 }
  
 }
