@@ -1,4 +1,4 @@
-@media (min-device-width 360px) {
+@media (max-width 360px) {
 	#navigation {
 		display: inline;
 		text-align: center;
