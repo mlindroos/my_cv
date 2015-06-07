@@ -9,26 +9,30 @@ var expetext;
 var ittext;
 var resptext;
 var langtext;
+var cv;
 var header;
 var education;
 
 function BackgroundImage() {
     this.header;
     this.education;
+    this.cv;
 }
 
 BackgroundImage.prototype.preload = function() {
     this.header = new Image();
-    this.header.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3LC5LZA1EKABrh1Z99k38DPBhjZFXkqbQENnziK9hfd0WejlUvwj";
+    this.header.src = "keyboard.jpg";
     this.education = new Image();
-    this.education.src = "https://cloud.githubusercontent.com/assets/10785456/8025396/b60a9576-0d5d-11e5-8f43-3559d3d21cea.jpg"
+    this.education.src = "keyboards.jpg";
+    this.cv = new Image();
+    this.cv.src = "cv.jpg";
 }
 
 images = new BackgroundImage();
 images.preload();
 
 $(window).resize(function(){
-    $(this.education).css('height', window.innerHeight);
+    $(this.header).css('height', window.innerHeight);
 });
 
 $(document).ready(function() {
@@ -43,7 +47,11 @@ $(document).ready(function() {
            
            text = ""
            textNode = ""
-           var element = document.getElementById(key);
+           title = key;
+           if(key == "Programming_Languages" || key == "Softwares") {
+            title = "IT_Skills"
+           }
+           var element = document.getElementById(title);
            for(part in data[title]) {
             for (i = 0; i < Object.keys(data[key][part]).length; i++) {
                 element.appendChild(document.createTextNode(data[key][part][i])); 
