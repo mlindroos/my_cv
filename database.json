@@ -1,0 +1,80 @@
+{
+	
+
+	"Work Experience": [{
+		"Work Place": "Department of Media Technology, Aalto University",
+		"Title": "Course Assistant",
+		"Duration": "09/2014-12/2014",
+	}, {
+		"Work Place": "SOL Services LLC",
+		"Title": "Service Manager",
+		"Duration": "01/2013-08/2014",
+		}, {
+		"Work Place": "Lidl LP",
+		"Title": "Sales Person",
+		"Duration": "04/2013-8/2013",
+		}],
+
+	"Education": [{
+		"School": "Aalto University School of Science",
+		"Degree": "Student of Technology, 105/300op",
+		"Major": "Information Networks",
+		"Minor": "Computer Science and Engineering",
+		"Estimate Time of Graduating": "Bachelor, fall 2016",
+	}, {
+		"School": "Viikki Teachers Training School of Helsinki University",
+		"Degree": "Graduate, 2013",
+	}],
+
+	"Positions of Responsibility": [{
+		"Position": "Member of Board, Host",
+		"Association": "Athene",
+		"Duration": "2015",
+		}, {
+		"Position": "Corresponding the Sports",
+		"Association": "Athene",
+		"Duration": "2014",
+
+		}],
+
+	"Programming Languages": [{
+		"Language": "Scala",
+		"Level": "Primary language",
+	}, {
+		"Language": "Python",
+		"Level": "Good",
+	}, {
+		"Language": "HTML/CSS",
+		"Level": "Good",
+	}, {
+		"Language": "JavaScript",
+		"Level": "Good",
+	}, {
+		"Language": "PHP",
+		"Level": "Basics",
+	}],
+
+	"Software": [{
+		"Package": "MS Office",
+		"Level": "Advanced",
+	}, {
+		"Package": "Adobe Creative Cloud",
+		"Level": "Good",
+	}],
+
+	"Languages": [{
+		"Language": "Finnish",
+		"Level": "Native Speaker",
+	}, {
+		"Language": "English",
+		"Level": "Fluent",
+	}, {
+		"Language": "Swedish",
+		"Level": "Good",
+	}, {
+		"Language": "German",
+		"Level": "Basics",
+	}]
+
+
+}
