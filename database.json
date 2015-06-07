@@ -1,80 +1,101 @@
 {
-	
-
-	"Work Experience": [{
-		"Work Place": "Department of Media Technology, Aalto University",
-		"Title": "Course Assistant",
-		"Duration": "09/2014-12/2014",
-	}, {
-		"Work Place": "SOL Services LLC",
-		"Title": "Service Manager",
-		"Duration": "01/2013-08/2014",
-		}, {
-		"Work Place": "Lidl LP",
-		"Title": "Sales Person",
-		"Duration": "04/2013-8/2013",
-		}],
-
-	"Education": [{
-		"School": "Aalto University School of Science",
-		"Degree": "Student of Technology, 105/300op",
-		"Major": "Information Networks",
-		"Minor": "Computer Science and Engineering",
-		"Estimate Time of Graduating": "Bachelor, fall 2016",
-	}, {
-		"School": "Viikki Teachers Training School of Helsinki University",
-		"Degree": "Graduate, 2013",
-	}],
-
-	"Positions of Responsibility": [{
-		"Position": "Member of Board, Host",
-		"Association": "Athene",
-		"Duration": "2015",
-		}, {
-		"Position": "Corresponding the Sports",
-		"Association": "Athene",
-		"Duration": "2014",
-
-		}],
-
-	"Programming Languages": [{
-		"Language": "Scala",
-		"Level": "Primary language",
-	}, {
-		"Language": "Python",
-		"Level": "Good",
-	}, {
-		"Language": "HTML/CSS",
-		"Level": "Good",
-	}, {
-		"Language": "JavaScript",
-		"Level": "Good",
-	}, {
-		"Language": "PHP",
-		"Level": "Basics",
-	}],
-
-	"Software": [{
-		"Package": "MS Office",
-		"Level": "Advanced",
-	}, {
-		"Package": "Adobe Creative Cloud",
-		"Level": "Good",
-	}],
-
-	"Languages": [{
-		"Language": "Finnish",
-		"Level": "Native Speaker",
-	}, {
-		"Language": "English",
-		"Level": "Fluent",
-	}, {
-		"Language": "Swedish",
-		"Level": "Good",
-	}, {
-		"Language": "German",
-		"Level": "Basics",
-	}]
-
-
+    "Education": [
+        {
+            "0": "Aalto University School of Science: Student of Technology, 105/300op",
+            "1": "Major: Information Networks",
+            "2": "Minor: Computer Science and Engineering",
+            "3": "Estimate Time of Graduating: Bachelor, fall 2016"
+        },
+        {
+            "0": "Viikki Teachers Training School of Helsinki University",
+            "1": "Graduate, 2013"
+        }
+    ],
+    "Work_Experience": [
+        {
+            "0": "Department of Media Technology: Aalto University, ",
+            "1": "Course Assistant, ",
+            "2": "09/2014-12/2014"
+        },
+        {
+            "0": "SOL Services LLC, ",
+            "1": "Service Manager, ",
+            "2": "01/2013-08/2014"
+        },
+        {
+            "0": "Lidl LP, ",
+            "1": "Sales Person, ",
+            "2": "04/2013-8/2013, "
+        }
+    ],
+    "Pos._of_Responsibility": [
+        {
+            "0": "Member of Board, Host, ",
+            "1": "Athene, ",
+            "2": "2015"
+        },
+        {
+            "0": "Corresponding the Sports, ",
+            "1": "Athene, ",
+            "2": "2014"
+        }
+    ],
+    "IT_Skills": [
+        {
+            "0": "Scala - ",
+            "1": "Primary language"
+        },
+        {
+            "0": "Python - ",
+            "1": "Good"
+        },
+        {
+            "0": "HTML/CSS - ",
+            "1": "Good"
+        },
+        {
+            "0": "JavaScript - ",
+            "1": "Good"
+        },
+        {
+            "0": "PHP - ",
+            "1": "Basics"
+        },
+        {
+            "0": "MS Office - ",
+            "1": "Advanced"
+        },
+        {
+            "0": "Adobe Creative Cloud - ",
+            "1": "Good"
+        }
+    ],
+    "Languages": [
+        {
+            "0": "Finnish - ",
+            "1": "Native Speaker"
+        },
+        {
+            "0": "English - ",
+            "1": "Fluent"
+        },
+        {
+            "0": "Swedish - ",
+            "1": "Good"
+        },
+        {
+            "0": "German - ",
+            "1": "Basics"
+        }
+    ],
+    "Basics": [
+    {
+    	"0": "Mira Lindroos"
+    	},{
+    	"0": "24/08/1994"
+    		}, {
+    	"0": "mira.lindroos@aalto.fi"
+    	}, {
+    	"0": "+358400863524"
+    }]		
 }
