@@ -1,4 +1,4 @@
-@media (max-width 360px) {
+@media only screen and (max-width: 360px) {
 	#navigation {
 		display: inline;
 		text-align: center;
@@ -22,7 +22,33 @@
 	margin-right: auto;
 	text-align: center;
 	font-size: 40%;
+	}
 }
+@media only screen and (max-width: 1024px) {
+	#navigation {
+		display: inline;
+		text-align: center;
+	}
+	#title {
+		font-size:120%;
+	}
+	#quote {
+		font-size: 50%;
+	}
+	body {
+		background-color: #505050;
+		opacity: .7;
+		background-image: none;
+	}
+	.divisions{
+	color: green;
+	background:rgba(0, 0, 0, 0.6);
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 40%;
+	}
 }
 
 * {
