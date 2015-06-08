@@ -80,11 +80,12 @@ h2 {
 .divisions{
 	color: white;
 	background:rgba(0, 0, 0, 0.6);
-	width: 80%;
+	width: 40%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	font-size: 150%;
+	float:left;
 
 }
 .titles {
