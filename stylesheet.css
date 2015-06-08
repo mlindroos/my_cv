@@ -6,11 +6,6 @@
 	padding: 0.01%;
 }
 
-.contaniner {
-	width: 80%;
-	margin-left: auto;
-	margin-right: auto;
-}
 body {
 	background:url("https://cloud.githubusercontent.com/assets/10785456/8024126/323d26cc-0d31-11e5-9f12-d95937216843.jpg") no-repeat top left;
 	background-size: 100% 100%;
@@ -50,7 +45,9 @@ header {
 #navigation {
 	color:white;
 	background: rgba(0, 0, 0, 0.6);
-
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 	font: Lucida;
 	font-style: bold;
 	font-size: 150%;
