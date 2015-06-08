@@ -5,6 +5,9 @@
 //	margin: 0%;
 	padding: 0.01%;
 }
+
+.contaniner {
+	width: 80%;
 body {
 	background:url("https://cloud.githubusercontent.com/assets/10785456/8024126/323d26cc-0d31-11e5-9f12-d95937216843.jpg") no-repeat top left;
 	background-size: 100% 100%;
