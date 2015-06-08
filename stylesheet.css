@@ -100,12 +100,15 @@ h2 {
 	* {
 		font-size: 90%;
 	}
+	
 }
 @media (max-width: 900px) {
 	
 }
 @media (max-width: 768px){
-	
+	.divisions {
+		width:100%;
+	}
 }
 
 @media (max-width: 480px) {
