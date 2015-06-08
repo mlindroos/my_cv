@@ -93,7 +93,7 @@ h2 {
 
 #Basics {
 	width: 100%;
-	background:rgba(0,0,0,1.0);
+	background:rgba(0,0,0,0.7);
 	text-align: center;
 }
 @media (max-width: 1200px) {
@@ -119,9 +119,36 @@ h2 {
 		font-size: 92%;
 	}
 }
+@media (max-width: 768px orientation:portrait){
+	#navigation {
+		width: 100%;
+		font-size:120%;
+		padding-bottom: 15%;
+	}
+	h2 {
+		font-size: 60%;
+	}
+	.divisions {
+		width:100%;
+		font-size: 90%;
+	}
+}
 
-@media (max-width: 480px) {
-	
+@media (max-width: 480px orientation: landscape) {
+#navigation {
+		width: 100%;
+		font-size:120%;
+		padding-bottom: 15%;
+	}
+	h2 {
+		font-size: 60%;
+	}
+	.divisions {
+		width:100%;
+		font-size: 90%;
+		color:green;
+	}
+}
 }
 
 
