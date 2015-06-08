@@ -106,12 +106,9 @@ h2 {
 	
 }
 @media (max-width: 768px){
-	*{
-		
-	}
 	#navigation {
 		width: 100%;
-		font-size:80%;
+		font-size:100%;
 	}
 	.divisions {
 		width:100%;
