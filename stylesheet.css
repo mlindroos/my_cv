@@ -110,9 +110,12 @@ h2 {
 		width: 100%;
 		font-size:100%;
 	}
+	h2 {
+		font-size: 70%;
+	}
 	.divisions {
 		width:100%;
-		font-size: 50%;
+		font-size: 60%;
 	}
 }
 
