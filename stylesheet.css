@@ -108,21 +108,23 @@ h2 {
 	#navigation {
 		width: 100%;
 		font-size:120%;
-		padding-bottom: 15%;
 	}
 	h2 {
 		font-size: 60%;
 	}
+	#quote {
+		padding-bottom:0%;
+	}
 	.divisions {
 		width:100%;
-		font-size: 92%;
+		font-size: 90%;
+		color:green;
 	}
 }
 @media (max-width: 768px orientation:portrait){
 	#navigation {
 		width: 100%;
 		font-size:120%;
-		padding-bottom: 15%;
 	}
 	h2 {
 		font-size: 60%;
@@ -134,20 +136,7 @@ h2 {
 }
 
 @media (max-width: 480px orientation: landscape) {
-#navigation {
-		width: 100%;
-		font-size:120%;
-		padding-bottom: 15%;
-	}
-	h2 {
-		font-size: 60%;
-	}
-	.divisions {
-		width:100%;
-		font-size: 90%;
-		color:green;
-	}
-}
+
 }
 
 
