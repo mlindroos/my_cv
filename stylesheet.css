@@ -70,13 +70,15 @@ li a{
 }
 
 .headers {
-	background-color: rgba(0,0,0,0.4);
+	font-size: 1.2em;
 	color: white;
+	
 }
 h2 {
 	background-color: rgba(0, 0, 0, 0.4);
 	color: white;
 }
+
 .divisions{
 	color: white;
 	background:rgba(0, 0, 0, 0.6);
@@ -84,21 +86,9 @@ h2 {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	font-size: 150%;
+	font-size: 1.0em;
 }
-#Education {
-	position: absolute;
-	top: 5%;
-	left:20%;
-}
-#Work-Experience {
-	position: absolute;
-	top: 5%;
-	left:50%;
-}
-.titles {
-	opacity: 0;
-}
+
 #Basics {
 	width: 100%;
 	background:rgba(0,0,0,1.0);
