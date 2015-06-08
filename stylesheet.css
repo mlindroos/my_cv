@@ -87,13 +87,25 @@ h2 {
 	font-size: 150%;
 
 }
-
+.titles {
+	opacity: 0;
+}
 #Basics {
 	width: 100%;
-	background:rgba(0,0,0,0.8);
+	background:rgba(0,0,0,1.0);
 	text-align: center;
 }
 
 @media (max-width: 480px) {
+	
+}
+
+@media (max-width: 768px){
+	
+}
+@media (max-width: 900px) {
+	
+}
+@media (max-width: 1200px) {
 	
 }
