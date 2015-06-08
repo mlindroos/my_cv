@@ -20,7 +20,7 @@ header {
 
 #title{
 	font: Lucida;
-	font-size: 6.0em;
+	font-size: 5.0em;
 	color: white;
 	text-shadow: 1px 1px 1px black;
 	background: rgba(0, 0, 0, 0);
@@ -35,7 +35,7 @@ header {
 	font: Lucida;
 	text-shadow: 1px 1px 1px black;
 	font-style: italic;
-	font-size: 1.5em;
+	font-size: 1.2em;
 	padding-bottom: 8%;
 	text-align: center;
 	
