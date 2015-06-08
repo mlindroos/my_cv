@@ -81,7 +81,8 @@ h2 {
 	color: white;
 	background:rgba(0, 0, 0, 0.6);
 	width: 40%;
-	margin-left: 20%;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 	font-size: 150%;
 	float:left;
