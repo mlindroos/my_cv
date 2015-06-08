@@ -81,11 +81,10 @@ h2 {
 	color: white;
 	background:rgba(0, 0, 0, 0.6);
 	width: 40%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 20%;
 	text-align: center;
 	font-size: 150%;
-	float:center;
+	float:left;
 
 }
 .titles {
