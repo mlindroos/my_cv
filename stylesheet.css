@@ -88,13 +88,9 @@ h2 {
 	margin-right: auto;
 	text-align: center;
 	font-size: 1.5em;
+	padding-top:5%;
 }
 
-#Basics {
-	width: 100%;
-	background:rgba(0,0,0,0.7);
-	text-align: center;
-}
 @media (max-width: 1200px) {
 	* {
 		font-size: 90%;
