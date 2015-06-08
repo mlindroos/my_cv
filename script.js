@@ -55,7 +55,7 @@ $(document).ready(function() {
            for(part in data[title]) {
             for (i = 0; i < Object.keys(data[key][part]).length; i++) {
                 element.appendChild(document.createTextNode(data[key][part][i])); 
-                if(key == "Education") {
+                if(key == "Education" || key == "Work_Experience") {
                     element.appendChild(document.createElement("br")); 
                 }
                   
