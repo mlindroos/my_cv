@@ -1,8 +1,7 @@
-
 * {
 	background: #ffffff;
 	font-family: monospace;
-//	margin: 0%;
+	margin: 0%;
 	padding: 0.01%;
 }
 
@@ -21,7 +20,7 @@ header {
 
 #title{
 	font: Lucida;
-	font-size: 450%;
+	font-size: 2.3em;
 	color: white;
 	text-shadow: 1px 1px 1px black;
 	background: rgba(0, 0, 0, 0);
@@ -36,7 +35,7 @@ header {
 	font: Lucida;
 	text-shadow: 1px 1px 1px black;
 	font-style: italic;
-	font-size: 105%;
+	font-size: 1.5em;
 	padding-bottom: 8%;
 	text-align: center;
 	
@@ -93,4 +92,8 @@ h2 {
 	width: 100%;
 	background:rgba(0,0,0,0.8);
 	text-align: center;
+}
+
+@media (max-width: 480px) {
+	
 }
