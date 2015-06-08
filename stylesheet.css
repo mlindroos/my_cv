@@ -85,13 +85,16 @@ h2 {
 	margin-right: auto;
 	text-align: center;
 	font-size: 150%;
-	display: inline-block;
 }
 #Education {
-	vertical.align: top;
+	position: absolute;
+	top: 5%;
+	left:20%;
 }
-#Work_Experience {
-	vertical.align: top;
+#Work-Experience {
+	position: absolute;
+	top: 5%;
+	left:50%;
 }
 .titles {
 	opacity: 0;
