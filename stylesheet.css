@@ -11,11 +11,17 @@ body {
 }
 
 header {
-	background:url("https://cloud.githubusercontent.com/assets/10785456/8024126/323d26cc-0d31-11e5-9f12-d95937216843.jpg") no-repeat top left;
 	background-size: 100% 100%;
 	opacity:0.85;
 	width: 100%;
 	height: 100%;
+	position: relative;
+}
+
+#background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
 }
 
 #title{
