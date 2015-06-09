@@ -96,7 +96,7 @@ h2 {
 		width: 80%;
 		font-size:1.8em;
 	}
-	.headers {
+	h2 {
 		font-style:bold;
 	}
 	#quote {
@@ -138,15 +138,15 @@ h2 {
 		padding-top:10%;
 	}
 	h2 {
-		font-size: 2.4em;
+		font-size: 0.8em;
 	}
 	#quote {
-		padding-bottom:0%;
-		font-size: 1.4em;
+		padding-bottom:5%;
+		font-size: 0.8em;
 	}
 	.divisions {
 		width:100%;
-		font-size: 1.4em;
+		font-size: 0.8em;
 	}
 }
 @media (max-width: 568px) and (orientation: portrait) {
