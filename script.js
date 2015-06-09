@@ -28,9 +28,7 @@ $(document).ready(function() {
     
 });
 })
-var navigationBar = Array("#ED", "WE", "PR", "IT", "LA", "CM");
-for(title in navigationBar) {
-    $(title).mouseover(function() {
+
+$("a").mouseover(function() {
      $(this).css("opacity", "0.2");
 });
-};
