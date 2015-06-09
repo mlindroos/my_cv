@@ -135,13 +135,14 @@ h2 {
 	}
 	#title {
 		font-size: 3.5em;
+		padding-top:10%;
 	}
 	h2 {
 		font-size: 2.4em;
 	}
 	#quote {
 		padding-bottom:0%;
-		font-size: 1.0em;
+		font-size: 1.4em;
 	}
 	.divisions {
 		width:100%;
