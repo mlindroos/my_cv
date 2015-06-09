@@ -29,7 +29,7 @@ $(document).ready(function() {
 });
 })
 
-$("a").mouseover(function() {
+$("a").on("mouseover", (function() {
     console.log("HEI");
      $(this).css("opacity", "0.2");
 });
