@@ -26,8 +26,10 @@ $(document).ready(function() {
            }
          
         }
-   var interval = setInterval(function(){change();}, 5000);
-});
+   
+    });
+    var interval = setInterval(function(){change();}, 5000);
+}
 function change() {
      $("header").fadeTo(500, 1.0, function() {
         console.log("HO")
