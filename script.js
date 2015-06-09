@@ -30,8 +30,8 @@ $(document).ready(function() {
     });
     var interval = setInterval(function(){change();}, 5000);
     $(window).resize(function() {
-        $(#background).css('height', window.innerHeight);
-        $(#background).css('width', window.innerWidth);
+        $("#background").css('height', window.innerHeight);
+        $("#background").css('width', window.innerWidth);
     })
 })
 function change() {
