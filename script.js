@@ -28,8 +28,9 @@ $(document).ready(function() {
     
 });
 })
-
-$("#navigation").mouseover(function() {
-    console.log("HEI")
-    $(this).css("opacity", "0.2");
-})
+var navigationBar = Array("#ED", "WE", "PR", "IT", "LA", "CM");
+for(title in navigationBar) {
+    $(title).mouseover(function() {
+     $(this).css("opacity", "0.2");
+});
+};
