@@ -43,7 +43,7 @@ function change() {
         index = -1;
         }
         index = index + 1;
-        $(header).fadeIn(1000);
+        $("header").fadeIn(1000);
     });
 };
 $( "#navigation" ).on("mouseover", function() {
