@@ -1,50 +1,11 @@
-var currentBackgroundImg;
-var eduelement;
-var expelement;
-var itelement;
-var respelement;
-var langelement;
-var edutext;
-var expetext;
-var ittext;
-var resptext;
-var langtext;
-var cv;
-var header;
-var education;
-
-function BackgroundImage() {
-    this.header;
-    this.education;
-    this.cv;
-}
-
-BackgroundImage.prototype.preload = function() {
-    this.header = new Image();
-    this.header.src = "keyboard.jpg";
-    this.education = new Image();
-    this.education.src = "keyboards.jpg";
-    this.cv = new Image();
-    this.cv.src = "cv.jpg";
-}
-
-images = new BackgroundImage();
-images.preload();
-
-$(window).resize(function(){
-    $(this.header).css('height', window.innerHeight);
-});
 
 $(document).ready(function() {
-    var i;
-    var j;
 
     $.getJSON("database.json",{}, function(data) {
         var text;
         var textNode;
         var title;
         for(var key in data) {
-           
            text = ""
            textNode = ""
            title = key;
@@ -64,7 +25,25 @@ $(document).ready(function() {
            }
            
         }
+        var titles = Array("Education", "Work_Experience", "Pos._of_Responsibilities", "IT_Skills", "Languages", "Basics");
+        if(window.matchMedia('(max-width: 568px)').matches) {
+            document.getElementById("IT_Skills").appendChild(document.createTextNode("IT_Skills |");
+        }
+        else if(window.matchMedia('(max-width: 768px)').matches) {
+            document.getElementById("Education").appendChild(document.createTextNode("Education |"));
+            document.getElementById("IT_Skills").appendChild(document.createTextNode("| IT Skills"));
+            document.getElementById("Basics").appendChild(document.createTextNode("| Contact Me"));
+        }
+        else if(window.matchMedia('(max-width: 1200px)').matches) {
+            document.getElementById("Work_Experience").appendChild(document.createTextNode("| Work_Experience |"));
+            document.getElementById("IT_Skills").appendChild(document.createTextNode("| IT Skills"));
+            document.getElementById("Basics").appendChild(document.createTextNode("| Contact Me"));
+        }
+        else {
+            document.getElementById("Work_Experience").appendChild(document.createTextNode("| Work_Experience |"));
+            document.getElementById("IT_Skills").appendChild(document.createTextNode("| IT Skills |"));
+            document.getElementById("Basics").appendChild(document.createTextNode("| Contact Me"));
+        }
 });
 })
-
 
