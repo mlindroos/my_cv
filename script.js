@@ -34,7 +34,7 @@ function change() {
     if(index == 0) {
         $("header").css("background-image", "url = https://cloud.githubusercontent.com/assets/10785456/8024126/323d26cc-0d31-11e5-9f12-d95937216843.jpg");
     }
-    elif(index == 1 {
+    elif(index == 1) {
         $("header").css("background-image", "url = https://cloud.githubusercontent.com/assets/10785456/8069202/68778b5c-0f01-11e5-8505-0319064c82ab.jpg");
     }
     else {
