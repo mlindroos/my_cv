@@ -97,7 +97,7 @@ h2 {
 		font-size:1.8em;
 	}
 	.headers {
-		font-size: 3.0em;
+		font-style:bold;
 	}
 	#quote {
 		padding-bottom:15%;
@@ -118,7 +118,7 @@ h2 {
 		font-size: 2.1em;
 	}
 	.headers {
-		font-size: 28em;
+		font-style: bold;
 	}
 	#quote {
 		padding-bottom: 15%;
