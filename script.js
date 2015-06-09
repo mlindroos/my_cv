@@ -1,7 +1,7 @@
 var index;
 
 $(document).ready(function() {
-    index = 0;
+    index = 1;
     $.getJSON("database.json",{}, function(data) {
         var text;
         var textNode;
