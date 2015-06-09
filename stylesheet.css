@@ -121,13 +121,13 @@ h2 {
 		font-size: 5.4em;
 	}
 	#quote {
-		padding-bottom: 45%;
+		padding-bottom: 4%;
 	}
 	.divisions {
 		width: 100%;
-		font-size: 2.4em;
+		font-size: 1.2em;
 	}
-	li a{
+	li {
 		display: inline;
 	}
 }
