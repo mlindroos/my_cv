@@ -29,6 +29,6 @@ $(document).ready(function() {
 });
 })
 
-$(a).mouseover(function() {
+$(.navigation).mouseover(function() {
     $(this).css("opacity", "0.2");
 })
