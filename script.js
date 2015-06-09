@@ -29,7 +29,7 @@ $(document).ready(function() {
 });
 })
 console.log(2)
-$( "a" ).on("mouseover", function() {
+$( "#navigation" ).on("mouseover", function() {
     console.log("HEI");
      $(this).css("color", "red");
 });
