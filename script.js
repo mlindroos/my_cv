@@ -42,7 +42,7 @@ function change() {
         index = -1;
         }
         index = index + 1;
-    }).delay(5000).fadeTo(1000, 1.0);
+    });
 });
 }
 $( "#navigation" ).on("mouseover", function() {
