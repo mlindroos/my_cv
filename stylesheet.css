@@ -107,18 +107,17 @@ h2 {
 }
 @media (max-width: 1200px) and (orientation:landscape) {
 	#navigation {
-		width: 80%;
 		font-size:1.8em;
-		padding-top: 60%;
+		padding-top: 50%;
 	}
 	h2 {
 		font-style:bold;
 	}
 	#quote {
-		padding-top:50%;
+		padding-top:40%;
 	}
 	#title {
-		padding-top: 40%;
+		padding-top: 20%;
 	}
 	.divisions {
 		width:80%;
