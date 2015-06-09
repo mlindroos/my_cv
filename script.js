@@ -28,8 +28,8 @@ $(document).ready(function() {
     
 });
 })
-
-$("a").on("click", (function() {
+console.log(2)
+$("a").on("mouseover", (function() {
     console.log("HEI");
-     $(this).css("opacity", "0.2");
+     $(this).css("color", "red");
 }));
