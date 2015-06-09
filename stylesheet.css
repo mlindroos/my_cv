@@ -162,12 +162,12 @@ h2 {
 		font-size: 1.2em;
 	}
 	#quote {
-		padding-bottom:12%;
-		font-size: 0.8em;
+		padding-bottom: 8;%;
+		font-size: 1.2em;
 	}
 	.divisions {
 		width:100%;
-		font-size: 0.8em;
+		font-size: 1.2em;
 		color: white;
 	}
 }
