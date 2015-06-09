@@ -43,8 +43,7 @@ function change() {
         index = -1;
         }
         index = index + 1;
-}
-});
+    });
 $( "#navigation" ).on("mouseover", function() {
     console.log("HEI");
      $(this).css("color", "red");
