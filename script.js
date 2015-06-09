@@ -30,5 +30,6 @@ $(document).ready(function() {
 })
 
 $("#navigation").mouseover(function() {
+    console.log("HEI")
     $(this).css("opacity", "0.2");
 })
