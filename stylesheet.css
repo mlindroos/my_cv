@@ -96,8 +96,8 @@ h2 {
 		width: 80%;
 		font-size:1.8em;
 	}
-	h2 {
-		font-size: 7.0em;
+	.headers {
+		font-size: 3.0em;
 	}
 	#quote {
 		padding-bottom:15%;
@@ -117,8 +117,8 @@ h2 {
 		width: 100%;
 		font-size: 2.1em;
 	}
-	h2 {
-		font-size: 20em;
+	.headers {
+		font-size: 2.8em;
 	}
 	#quote {
 		padding-bottom: 15%;
