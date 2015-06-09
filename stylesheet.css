@@ -94,10 +94,10 @@ h2 {
 @media (max-width: 1200px) and (orientation:landscape) {
 	#navigation {
 		width: 80%;
-		font-size:2.1em;
+		font-size:1.8em;
 	}
-	.headers {
-		font-size: 3.0em;
+	h2 {
+		font-size: 7.0em;
 	}
 	#quote {
 		padding-bottom:15%;
