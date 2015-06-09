@@ -125,6 +125,9 @@ h2 {
 		font-size: 4.4em;
 		color:green;
 	}
+	li {
+		display: inline;
+	}
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
