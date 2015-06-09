@@ -156,7 +156,7 @@ h2 {
 	}
 	#title {
 		font-size: 3.5em;
-		padding-top:10%;
+		padding-top:15%;
 	}
 	h2 {
 		font-size: 1.2em;
@@ -167,6 +167,7 @@ h2 {
 	}
 	.divisions {
 		width:100%;
+		color:green;
 		font-size: 1.2em;
 		color: white;
 	}
