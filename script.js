@@ -24,9 +24,12 @@ $(document).ready(function() {
             }
             element.appendChild(document.createElement("br")); 
            }
-           
+         
         }
-    $("header").fadeTo(500, 1.0, function() {
+   change();
+});
+function change() {
+     $("header").fadeTo(500, 1.0, function() {
         console.log("HO")
         if(index == 0) {
             $("header").css("background-image", "url(https://cloud.githubusercontent.com/assets/10785456/8024126/323d26cc-0d31-11e5-9f12-d95937216843.jpg)");
@@ -41,8 +44,7 @@ $(document).ready(function() {
         index = index + 1;
     }).delay(5000).fadeTo(1000, 1.0);
 });
-});
-    
+}
 $( "#navigation" ).on("mouseover", function() {
     console.log("HEI");
      $(this).css("color", "red");
