@@ -135,17 +135,18 @@ h2 {
 		color:green;
 	}
 	#title {
-		font-size: 3.0em;
+		font-size: 3.5em;
 	}
 	h2 {
-		font-size: 60%;
+		font-size: 2.4em;
 	}
 	#quote {
 		padding-bottom:0%;
+		font-size: 2.4em;
 	}
 	.divisions {
 		width:100%;
-		font-size: 90%;
+		font-size: 1.8em;
 	}
 }
 
