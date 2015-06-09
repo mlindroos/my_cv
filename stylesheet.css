@@ -18,6 +18,10 @@ header {
 	height: 100%;
 }
 
+.content {
+	background-color: rgba(255,0,0,1);
+}
+
 #title{
 	font: Lucida;
 	font-size: 5.0em;
