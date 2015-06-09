@@ -31,19 +31,19 @@ $(document).ready(function() {
     var interval = setInterval(function(){change();}, 5000);
 })
 function change() {
-     $("header").fadeOut(1000, function() {
+     $("#background").fadeOut(1000, function() {
         if(index == 0) {
-            $("header").css("background-image", "url(https://cloud.githubusercontent.com/assets/10785456/8024126/323d26cc-0d31-11e5-9f12-d95937216843.jpg)");
+            $("#background").attr("src", "https://cloud.githubusercontent.com/assets/10785456/8024126/323d26cc-0d31-11e5-9f12-d95937216843.jpg");
         }
         else if(index == 1) {
-            $("header").css("background-image", "url(https://cloud.githubusercontent.com/assets/10785456/8069202/68778b5c-0f01-11e5-8505-0319064c82ab.jpg)");
+            $("#background").attr("src", "https://cloud.githubusercontent.com/assets/10785456/8069202/68778b5c-0f01-11e5-8505-0319064c82ab.jpg");
         }
         else {
-        $("header").css("background-image", "url(https://cloud.githubusercontent.com/assets/10785456/8069406/f554b36e-0f02-11e5-8da4-ba47f68dff15.jpg)");
+        $("#background").attr("src", "https://cloud.githubusercontent.com/assets/10785456/8069406/f554b36e-0f02-11e5-8da4-ba47f68dff15.jpg");
         index = -1;
         }
         index = index + 1;
-        $("header").fadeIn(1000);
+        $("#background").fadeIn(1000);
     });
 };
 $( "#navigation" ).on("mouseover", function() {
