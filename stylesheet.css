@@ -105,6 +105,12 @@ h2 {
 	font-size: 1.5em;
 }
 
+#Education {
+	position: absolute;
+	width: 100%;
+	text-align:center;
+}
+
 
 @media (max-width: 1200px) and (orientation:landscape) {
 	#navigation {
