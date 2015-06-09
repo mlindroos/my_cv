@@ -25,7 +25,6 @@ $(document).ready(function() {
            }
            
         }
-        
         if(window.matchMedia('(max-width: 568px)').matches) {
             document.getElementById("IT").appendChild(document.createTextNode("IT_Skills |");
         }
@@ -35,6 +34,7 @@ $(document).ready(function() {
             document.getElementById("CM").appendChild(document.createTextNode("| Contact Me"));
         }
         else if(window.matchMedia('(max-width: 1200px)').matches) {
+            console.log("HEK")
             document.getElementById("WE").appendChild(document.createTextNode("| Work_Experience |"));
             document.getElementById("IT").appendChild(document.createTextNode("| IT Skills"));
             document.getElementById("CM").appendChild(document.createTextNode("| Contact Me"));
@@ -45,6 +45,8 @@ $(document).ready(function() {
             document.getElementById("IT").appendChild(document.createTextNode("| IT Skills |"));
             document.getElementById("CM").appendChild(document.createTextNode("| Contact Me"));
         }
+        
+        
 });
 })
 
