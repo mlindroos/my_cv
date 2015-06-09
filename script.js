@@ -27,22 +27,22 @@ $(document).ready(function() {
         }
         var titles = Array("Education", "Work_Experience", "Pos._of_Responsibilities", "IT_Skills", "Languages", "Basics");
         if(window.matchMedia('(max-width: 568px)').matches) {
-            document.getElementById("IT_Skills").appendChild(document.createTextNode("IT_Skills |");
+            document.getElementById("IT").appendChild(document.createTextNode("IT_Skills |");
         }
         else if(window.matchMedia('(max-width: 768px)').matches) {
-            document.getElementById("Education").appendChild(document.createTextNode("Education |"));
-            document.getElementById("IT_Skills").appendChild(document.createTextNode("| IT Skills"));
-            document.getElementById("Basics").appendChild(document.createTextNode("| Contact Me"));
+            document.getElementById("ED").appendChild(document.createTextNode("Education |"));
+            document.getElementById("IT").appendChild(document.createTextNode("| IT Skills"));
+            document.getElementById("CM").appendChild(document.createTextNode("| Contact Me"));
         }
         else if(window.matchMedia('(max-width: 1200px)').matches) {
-            document.getElementById("Work_Experience").appendChild(document.createTextNode("| Work_Experience |"));
-            document.getElementById("IT_Skills").appendChild(document.createTextNode("| IT Skills"));
-            document.getElementById("Basics").appendChild(document.createTextNode("| Contact Me"));
+            document.getElementById("WE").appendChild(document.createTextNode("| Work_Experience |"));
+            document.getElementById("IT").appendChild(document.createTextNode("| IT Skills"));
+            document.getElementById("CM").appendChild(document.createTextNode("| Contact Me"));
         }
         else {
-            document.getElementById("Work_Experience").appendChild(document.createTextNode("| Work_Experience |"));
-            document.getElementById("IT_Skills").appendChild(document.createTextNode("| IT Skills |"));
-            document.getElementById("Basics").appendChild(document.createTextNode("| Contact Me"));
+            document.getElementById("WE").appendChild(document.createTextNode("| Work_Experience |"));
+            document.getElementById("IT").appendChild(document.createTextNode("| IT Skills |"));
+            document.getElementById("CM").appendChild(document.createTextNode("| Contact Me"));
         }
 });
 })
