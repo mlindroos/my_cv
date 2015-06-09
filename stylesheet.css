@@ -97,7 +97,7 @@ h2 {
 		font-size:150%;
 	}
 	h2 {
-		font-size: 200%;
+		font-size: 230%;
 	}
 	#quote {
 		padding-bottom:4%;
@@ -113,6 +113,7 @@ h2 {
 	#navigation {
 		width: 100%;
 		font-size: 200%;
+		color:green;
 	}
 	h2 {
 		font-size: 200%;
