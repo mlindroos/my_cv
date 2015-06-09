@@ -25,28 +25,7 @@ $(document).ready(function() {
            }
            
         }
-        if(window.matchMedia('(max-width: 568px)').matches) {
-            document.getElementById("IT").appendChild(document.createTextNode("IT_Skills |");
-        }
-        else if(window.matchMedia('(max-width: 768px)').matches) {
-            document.getElementById("ED").appendChild(document.createTextNode("Education |"));
-            document.getElementById("IT").appendChild(document.createTextNode("| IT Skills"));
-            document.getElementById("CM").appendChild(document.createTextNode("| Contact Me"));
-        }
-        else if(window.matchMedia('(max-width: 1200px)').matches) {
-            console.log("HEK")
-            document.getElementById("WE").appendChild(document.createTextNode("| Work_Experience |"));
-            document.getElementById("IT").appendChild(document.createTextNode("| IT Skills"));
-            document.getElementById("CM").appendChild(document.createTextNode("| Contact Me"));
-        }
-        else {
-            console.log("HELLO")
-            document.getElementById("WE").appendChild(document.createTextNode("| Work_Experience |"));
-            document.getElementById("IT").appendChild(document.createTextNode("| IT Skills |"));
-            document.getElementById("CM").appendChild(document.createTextNode("| Contact Me"));
-        }
-        
-        
+    
 });
 })
 
