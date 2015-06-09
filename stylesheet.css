@@ -109,46 +109,23 @@ h2 {
 	
 }
 
-@media (max-width: 1200px) and (orientation: portrait) {
-	#title {
-		padding-top: 40%;
-	}
-	#navigation {
-		width: 100%;
-		font-size: 3.2em;
-	}
-	h2 {
-		font-size: 9.2em;
-	}
-	#quote {
-		padding-bottom: 1000%;
-	}
-	.divisions {
-		width: 100%;
-		font-size: 6.8em;
-	}
-	li a{
-		display: inline;
-	}
-}
-
 @media (max-width: 768px) and (orientation: portrait) {
 	#title {
 		padding-top: 40%;
 	}
 	#navigation {
 		width: 100%;
-		font-size: 3.2em;
+		font-size: 2.1em;
 	}
 	h2 {
-		font-size: 9.2em;
+		font-size: 5.4em;
 	}
 	#quote {
-		padding-bottom: 1000%;
+		padding-bottom: 45%;
 	}
 	.divisions {
 		width: 100%;
-		font-size: 6.8em;
+		font-size: 2.4em;
 	}
 	li a{
 		display: inline;
