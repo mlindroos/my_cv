@@ -98,10 +98,7 @@ h2 {
 	
 }
 @media (max-width: 900px) {
-	
-}
-@media (max-width: 768px){
-	#navigation {
+		#navigation {
 		width: 100%;
 		font-size:120%;
 	}
@@ -115,11 +112,26 @@ h2 {
 		width:100%;
 		font-size: 90%;
 	}
+	
+}
+@media (max-width: 768px) and (orientation: portrait) {
+	#navigation {
+		width: 100%;
+		font-size:120%;
+		color:green;
+	}
+	h2 {
+		font-size: 60%;
+	}
+	#quote {
+		padding-bottom:0%;
+	}
+	.divisions {
+		width:100%;
+		font-size: 90%;
+	}
 }
 
-@media (max-width: 480px orientation: landscape) {
-
-}
 
 
 
