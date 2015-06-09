@@ -50,6 +50,7 @@ header {
 	text-align: center;
 	position: absolute;
 	width: 100%;
+	padding-top:5%;
 	
 }
 
@@ -66,7 +67,7 @@ header {
 	text-align: center;
 	position:absolute;
 	width: 100%;
-	
+	padding-top:50%;
 }
 
 li {
