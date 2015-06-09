@@ -109,15 +109,16 @@ h2 {
 	#navigation {
 		width: 80%;
 		font-size:1.8em;
+		padding-top: 60%;
 	}
 	h2 {
 		font-style:bold;
 	}
 	#quote {
-		padding-top:30%;
+		padding-top:50%;
 	}
-	#navigation {
-		padding-top: 55%;
+	#title {
+		padding-top: 40%;
 	}
 	.divisions {
 		width:80%;
@@ -133,12 +134,13 @@ h2 {
 	#navigation {
 		width: 100%;
 		font-size: 2.1em;
+		padding-top: 60;
 	}
 	h2 {
 		font-style: bold;
 	}
 	#quote {
-		padding-bottom: 15%;
+		padding-top: 50%;
 	}
 	.divisions {
 		width: 100%;
@@ -192,7 +194,7 @@ h2 {
 		width:100%;
 		color:white;
 		font-size: 1.2em;
-		padding-top: 10%;
+		padding-top: 15%;
 	}
 	
 }
