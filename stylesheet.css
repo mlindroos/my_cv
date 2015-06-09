@@ -115,7 +115,10 @@ h2 {
 		font-style:bold;
 	}
 	#quote {
-		padding-bottom:15%;
+		padding-top:30%;
+	}
+	#navigation {
+		padding-top: 55%;
 	}
 	.divisions {
 		width:80%;
@@ -177,8 +180,11 @@ h2 {
 		font-size: 1.2em;
 	}
 	#quote {
-		padding-bottom: 10%;
+		padding-top: 50%;
 		font-size: 1.2em;
+	}
+	#navigation {
+		padding-top: 70%;
 	}
 	.divisions {
 		width:100%;
