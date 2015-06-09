@@ -133,20 +133,25 @@ h2 {
 }
 
 @media (max-width: 768px) and (orientation: portrait) {
+	#title {
+		padding-top: 40%;
+	}
 	#navigation {
 		width: 100%;
-		font-size:120%;
-		display: inline;
+		font-size: 3.2em;
 	}
 	h2 {
-		font-size: 60%;
+		font-size: 9.2em;
 	}
 	#quote {
-		padding-bottom:0%;
+		padding-bottom: 1000%;
 	}
 	.divisions {
-		width:100%;
-		font-size: 90%;
+		width: 100%;
+		font-size: 6.8em;
+	}
+	li a{
+		display: inline;
 	}
 }
 @media (max-width: 768px) and (orientation: landscape) {
