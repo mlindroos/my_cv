@@ -25,7 +25,7 @@ $(document).ready(function() {
            }
            
         }
-        var titles = Array("Education", "Work_Experience", "Pos._of_Responsibilities", "IT_Skills", "Languages", "Basics");
+        
         if(window.matchMedia('(max-width: 568px)').matches) {
             document.getElementById("IT").appendChild(document.createTextNode("IT_Skills |");
         }
@@ -40,6 +40,7 @@ $(document).ready(function() {
             document.getElementById("CM").appendChild(document.createTextNode("| Contact Me"));
         }
         else {
+            console.log("HELLO")
             document.getElementById("WE").appendChild(document.createTextNode("| Work_Experience |"));
             document.getElementById("IT").appendChild(document.createTextNode("| IT Skills |"));
             document.getElementById("CM").appendChild(document.createTextNode("| Contact Me"));
