@@ -31,7 +31,7 @@ $(document).ready(function() {
 });
 function change() {
     console.log("orkif")
-    $("header").fadeTo("slow", 0.8, function() {
+    $("header").fadeTo("slow", 1.0, function() {
         if(index == 0) {
             $("header").css("background-image", "url(https://cloud.githubusercontent.com/assets/10785456/8024126/323d26cc-0d31-11e5-9f12-d95937216843.jpg)");
         }
