@@ -115,14 +115,14 @@ h2 {
 		font-size: 240%;
 	}
 	h2 {
-		font-size: 200%;
+		font-size: 5.4em;
 	}
 	#quote {
 		padding-bottom: 1000%;
 	}
 	.divisions {
 		width: 100%;
-		font-size: 250%;
+		font-size: 4.4em;
 		color:green;
 	}
 }
