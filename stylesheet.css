@@ -103,45 +103,11 @@ h2 {
 	margin-right: auto;
 	text-align: center;
 	font-size: 1.5em;
+	position: relative;
 	
 }
 
 #Education {
-	position: absolute;
-	width: 100%;
-	text-align:center;
-	padding-top: 5%;
-}
-
-#Education {
-	position: absolute;
-	width: 100%;
-	text-align:center;
-	padding-top: 5%;
-}
-
-#Work_Experience {
-	position: absolute;
-	width: 100%;
-	text-align:center;
-	padding-top: 5%;
-}
-
-#Pos._of_Responsibilities {
-	position: absolute;
-	width: 100%;
-	text-align:center;
-	padding-top: 5%;
-}
-
-#IT_Skills {
-	position: absolute;
-	width: 100%;
-	text-align:center;
-	padding-top: 5%;
-}
-
-#Languages {
 	position: absolute;
 	width: 100%;
 	text-align:center;
