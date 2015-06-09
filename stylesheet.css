@@ -100,7 +100,7 @@ h2 {
 		font-size: 230%;
 	}
 	#quote {
-		padding-bottom:30%;
+		padding-bottom:100%;
 	}
 	.divisions {
 		width:80%;
@@ -112,17 +112,17 @@ h2 {
 @media (max-width: 1200px) and (orientation: portrait) {
 	#navigation {
 		width: 100%;
-		font-size: 200%;
+		font-size: 240%;
 	}
 	h2 {
 		font-size: 200%;
 	}
 	#quote {
-		padding-bottom: 80%;
+		padding-bottom: 1000%;
 	}
 	.divisions {
 		width: 100%;
-		font-size: 180%;
+		font-size: 250%;
 		color:green;
 	}
 }
